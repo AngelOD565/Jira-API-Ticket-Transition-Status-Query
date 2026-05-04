@@ -2,11 +2,7 @@
 This bash script runs a call to the Jira public API to extract the statuses that a Jira ticket transitioned through from each ticket's expanded changelog. It will automatically do this for all tickets in a particular Jira query using the URL-encoded JQL as an input.
 
 # Inputs
-This script can be ran for your own Jira project/query by inputting specific:
-Jira Base URL
-Jira Username/Email
-Jira Personal Access Token (PAT)
-Jira Query (in URL-encoded JQL format)
+This script can be ran for your own Jira project/query by inputting specific: Jira Base URL, Jira Username/Email, Jira Personal Access Token (PAT), and Jira Query (in URL-encoded JQL format)
 
 
 # Output
